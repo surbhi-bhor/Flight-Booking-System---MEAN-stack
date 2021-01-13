@@ -1,0 +1,49 @@
+
+
+label {
+    font-size: 15px;
+    color: white;
+}
+
+.card-header{
+    background-image: linear-gradient(rgb(150,32,54, 0.9), rgb(72,15,24, 0.9));
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.card-body{
+    background-image: linear-gradient(rgb(150,32,54), rgb(72,15,24));
+}
+
+.danger{
+    color:  rgb(179, 157, 157);
+    font-size: medium;
+}
+input{
+    color: white;
+}
+.btn {
+    background-color: rgb(116, 10, 29);
+    color: white;
+    float: center;
+
+}
+.btn:hover{
+    background-color: rgb(70, 17, 27);
+}
+
+.avatar {
+	color:  rgb(150,32,54, 0.9);
+	margin: 0 auto;
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	z-index: 9;
+	background: white;
+	padding: 15px;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+ .avatar i {
+	font-size: 62px;
+}
